@@ -2124,9 +2124,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 919132148572764089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26e0ebb7df6af5f4e8ffefaadf1dd3bb, type: 3}
+  m_Script: {fileID: 11500000, guid: dcdee5e355ccf734f9c3aab6d0492d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceleration: 2
+  deceleration: 2
+  maxWalkVelocity: 0.5
+  maxRunVelocity: 2
 --- !u!4 &5901452234644225920
 Transform:
   m_ObjectHideFlags: 0
